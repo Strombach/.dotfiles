@@ -1,0 +1,4 @@
+require("strombach.remap")
+
+vim.opt.nu = true
+vim.opt.relativenumber = true

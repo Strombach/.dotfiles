@@ -1,4 +1,10 @@
-
+# Some ls aliases from Linux Mint
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Create directory and cd into it
+
+function mkcd() {
+    mkdir -p "$1" && cd "$1";
+}
